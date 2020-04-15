@@ -1,0 +1,10 @@
+let variable = "manish";
+console.log(variable);
+variable = "sharma";
+console.log(variable);
+variable = ["Manish Sharma", "BTKIT", "ColoredCow", 29];
+console.log(variable);
+console.log(variable[0]);
+console.log(variable[1]);
+variable = document.querySelector('h1');
+variable.textContent = "manish";
