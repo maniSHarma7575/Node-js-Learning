@@ -1,0 +1,16 @@
+{
+    "name": "webcrawler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "download.js",
+    "dependencies": {
+        "uuid": "^7.0.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
