@@ -1,0 +1,18 @@
+{
+  "name": "mongodbmigrationscript",
+  "version": "1.0.0",
+  "description": "MongoDB Migration script",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mongodb": "3.5.7",
+    "mongoui": "^4.2.1"
+  }
+}
