@@ -1,0 +1,24 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "Learning Node.js",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maniSHarma7575/Node-js-Learning.git"
+    },
+    "author": "Manish Sharma",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maniSHarma7575/Node-js-Learning/issues"
+    },
+    "homepage": "https://github.com/maniSHarma7575/Node-js-Learning#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.3"
+    }
+}

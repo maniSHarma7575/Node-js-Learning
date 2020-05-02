@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <style>
+         :root {
+            --light-gray: #EEEEEE;
+            --light-blue: #1B9CE2;
+            --dark: #333;
+        }
+        
+        body {
+            margin: 0;
+            background-color: var(--light-gray);
+        }
+        
+        main {
+            margin: 20px;
+        }
+        
+        nav {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 30px;
+        }
+        
+        nav h1 {
+            margin: 0;
+        }
+        
+        .textbox {
+            border: 0;
+            min-width: 200px;
+            padding: 15px 20px;
+            font-size: 16px;
+            min-height: 50px;
+            border-radius: 3px;
+            transition: opacity 200ms ease-out;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            margin: 0 20px;
+        }
+        
+        .label {
+            font-weight: bold;
+            display: block;
+            margin: 15px 20px;
+        }
+        
+        .table-container {
+            margin: 20px;
+        }
+        
+        table {
+            width: 100%;
+            color: #212529;
+            border-collapse: collapse;
+        }
+        
+        table th {
+            color: white;
+            background-color: var(--dark);
+            border-color: #454d55;
+            padding: .75rem;
+            vertical-align: middle;
+        }
+        
+        table td {
+            text-align: center;
+            padding: .75rem;
+        }
+        
+        table tr:nth-of-type(even) td {
+            background-color: rgba(0, 0, 0, .08);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <h1>Name variations</h1>
+    </nav>
+
+    <main>
+        <div>
+            <label class="label" for="component-name">Enter your name</label>
+            <input type="text" class="textbox" placeholder="Your name" id="your-name">
+        </div>
+
+        <div class="table-container">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th width="200px">Variation</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Number of characters</td>
+                        <td id="answer1"></td>
+                    </tr>
+                    <tr>
+                        <td>First character</td>
+                        <td id="answer2"></td>
+                    </tr>
+                    <tr>
+                        <td>Last character</td>
+                        <td id="answer3"></td>
+                    </tr>
+                    <tr>
+                        <td>Lower case</td>
+                        <td id="answer4"></td>
+                    </tr>
+                    <tr>
+                        <td>Upper case</td>
+                        <td id="answer5"></td>
+                    </tr>
+                    <tr>
+                        <td>Capitalize</td>
+                        <td id="answer6"></td>
+                    </tr>
+                    <tr>
+                        <td>Without leading<br>and trailing spaces</td>
+                        <td id="answer7"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
