@@ -8,7 +8,10 @@ app.get('/',(req,res)=>{
   res.sendFile(__dirname+'/index.html')
 })
 io.on('connection',(socket)=>{
-  console.log('a user connected')
+  console.log('connected')
+  socket.on('chat message', (msg) => {
+    io.emit('chat message', msg);
+  });
 })
 
 http.listen(3000,()=>{
