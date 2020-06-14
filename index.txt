@@ -1,3 +1,4 @@
 Hello  I am created in hotfix branch
 Now We will learn more about merge conflicts
 Now after chekcing out the gitLearning branch We will save and modified this file.
+Now After committing from the master and I'm now in gitLearning and ready to commit from here after adding content in index.txt
