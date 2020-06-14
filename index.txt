@@ -1,1 +1,3 @@
 Hello  I am created in hotfix branch
+Now We will learn more about merge conflicts
+Now after chekcing out the gitLearning branch We will save and modified this file.
